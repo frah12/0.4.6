@@ -1,0 +1,78 @@
+/*
+// Author: Fredrik Åhman
+// Course: PHPMVC @ BTH
+// File: doe.style.css
+// Desc: Core style for my Lydia based framework called Konrad.
+*/
+@import url(../../../themes/grid/style.css);
+
+
+label{font-size:large;}
+textarea{
+	font:inherit;
+	width:45em;
+	height:20em;
+}
+
+/** --------------------------------------------------------------
+ * HTML & Body
+ */
+html{
+	background-color:#FFFFFF;
+}
+body{
+	margin:0;
+	padding:0;
+	color: #111111;
+	background-color:#AAAAAA;
+	font-family:San-Serif;
+	font: San-Serif;
+}
+
+/** --------------------------------------------------------------
+ * The header area.
+ */
+#header{}
+
+/** --------------------------------------------------------------
+ * Banner
+ */
+#site-logo{}
+#site-title{	}
+#site-slogan{}
+
+
+/** --------------------------------------------------------------
+ * The main content area.
+ */
+
+#main{}
+
+#primary{}
+#sidebar{}
+
+/** --------------------------------------------------------------
+ * The triptych area.
+ */
+#outer-wrap-triptych{}
+#inner-wrap-triptych{}
+#triptych{}
+
+#triptych-first,
+#triptych-middle,
+#triptych-last{}
+
+/** --------------------------------------------------------------
+ * The footer area.
+ */
+#footer{
+	font-family: Serif;
+	font-size:1.0em;
+	color:#666;
+	padding-bottom:1.0em;
+}
+
+/** --------------------------------------------------------------
+ * Links
+ */
+a{}
